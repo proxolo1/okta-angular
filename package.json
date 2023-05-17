@@ -1,0 +1,48 @@
+{
+  "name": "okta-hosted-login",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production --base-href /okta-hosted-login/",
+    "test": "npm run lint && npm run test:okta-hosted-login --prefix ../",
+    "lint": "ng lint"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~14.2.0",
+    "@angular/common": "~14.2.0",
+    "@angular/compiler": "~14.2.0",
+    "@angular/core": "~14.2.0",
+    "@angular/forms": "~14.2.0",
+    "@angular/platform-browser": "~14.2.0",
+    "@angular/platform-browser-dynamic": "~14.2.0",
+    "@angular/router": "~14.2.0",
+    "@giomamaladze/ng2-semantic-ui": "^1.0.1",
+    "@okta/okta-angular": "^6.0.0",
+    "@okta/okta-auth-js": "7.0.2",
+    "rxjs": "~7.4.0",
+    "semantic-ui-css": "^2.4.1",
+    "tslib": "^2.4.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-builders/custom-webpack": "^14.0.1",
+    "@angular-devkit/build-angular": "~14.2.0",
+    "@angular/cli": "~14.2.0",
+    "@angular/compiler-cli": "~14.2.0",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "@types/text-encoding": "0.0.36",
+    "codelyzer": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "protractor": "^7.0.0",
+    "text-encoding": "^0.7.0",
+    "ts-node": "~10.9.1",
+    "tslint": "~6.1.3",
+    "typescript": "~4.8.3"
+  }
+}
