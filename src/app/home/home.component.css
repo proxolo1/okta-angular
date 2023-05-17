@@ -10,3 +10,7 @@
 .login{
   cursor: pointer;
 }
+.mt-2{
+  margin-top: 2.5rem!important;
+  font-size: large;
+}
